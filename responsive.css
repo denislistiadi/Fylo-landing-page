@@ -46,12 +46,12 @@
         margin-top: 80px;
     }
 
-    form input {
+    #form input {
         width: 100%;
         margin-bottom: 10px;
     }
 
-    form a {
+    #form .submit {
         width: 100%;
         margin-left: 0;
 
@@ -128,11 +128,15 @@
         text-align: center;
     }
 
-    #right-third input, #right-third a {
+    #right-third input{
+        width: 80%;
+    }
+
+    #right-third input.submit {
         width: 80%;
     }
     
-    #right-third a {
+    #right-third input.submit {
         margin-bottom: 50px;
     }
 
