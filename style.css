@@ -74,7 +74,8 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-form input {
+#form input {
+    display: inline-block;
     font-family: 'Open Sans', sans-serif;
     border: 2px solid hsl(0, 0%, 75%);
     border-radius: 3px;
@@ -82,25 +83,28 @@ form input {
     padding: 12px 20px;
 }
 
-form input::placeholder {
+#form input::placeholder {
     color: hsl(0, 0%, 75%);
 }
 
-form a {
-    display: inline-block;
+#form .submit {
     background-color: hsl(224, 93%, 58%);
+    border: 2px solid hsl(224, 93%, 58%);
     padding: 12px 48px;
     text-decoration: none;
     color: #fff;
     margin-left: 12px;
+    width: 200px;
     font-weight: 700;
     border-radius: 5px;
     box-shadow: 2px 5px 10px hsl(0, 0%, 75%, 0.4);
+    cursor: pointer;
 }
 
-form a:hover {
+#form .submit:hover {
     background-color: #fff;
     color: hsl(224, 93%, 58%);
+    border: 2px solid #fff;
 }
 
 #right-first {
@@ -257,9 +261,10 @@ section p {
     color: hsl(0, 0%, 75%);
 }
 
-#right-third a {
+#right-third input.submit {
     background-color: hsl(224, 93%, 58%);
     color: #fff;
+    border: 1px solid hsl(224, 93%, 58%);
     padding: 12px 20px;
     text-align: center;
     text-decoration: none;
@@ -269,11 +274,13 @@ section p {
     margin-top: 14px;
     border-radius: 5px;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
-#right-third a:hover {
+#right-third input.submit:hover {
     background-color: #fff;
     color: hsl(224, 93%, 58%);
+    border: 1px solid #fff;
 }
 
 /* Footer */
